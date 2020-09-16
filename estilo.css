@@ -1,0 +1,86 @@
+header{
+    font-family: sans-serif;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+img {
+    width: 50%;
+}
+
+h3{
+    text-align: center;
+}
+
+#customTable{
+    width: 100%;
+    background-color: #333;
+    font-family: Verdana;
+    font-size: 12px;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+#customTable th{
+    background-color: #e0e0e0;
+    font-family: Verdana;
+    font-size: 12px;
+    text-transform: uppercase;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+#customTable td{
+    text-transform: capitalize;
+    padding: 2px;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+#customTable tr:nth-child(even){
+    background-color: #ffffff;
+
+}
+
+#customTable tr:nth-child(odd){
+    background-color: #e0e0e0 ;
+}
+
+#tdPrecios{
+    text-align: right;
+}
+
+#navigationList{
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#navigationList li{
+    float: right;
+}
+
+#navigationList li a{
+    display: block;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+#navigationList li a:hover{
+    background-color: #e0e0e0;
+}
+
+
+#descripcion{
+    text-align: center;
+    text-justify: auto;
+}
+
+#fotos{
+    text-align: center;
+}
+
