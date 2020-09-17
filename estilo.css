@@ -21,6 +21,7 @@ h3{
     font-size: 12px;
     border: 1px solid black;
     border-collapse: collapse;
+    
 }
 
 #customTable th{
@@ -43,6 +44,9 @@ h3{
     background-color: #ffffff;
 
 }
+#customTable tr:nth-child(even):hover, #customTable tr:nth-child(odd):hover{
+    background-color: #fffb00;
+}
 
 #customTable tr:nth-child(odd){
     background-color: #e0e0e0 ;
@@ -61,6 +65,8 @@ h3{
 
 #navigationList li{
     float: right;
+    border-style: solid;
+    border-width: 1px;
 }
 
 #navigationList li a{
@@ -74,6 +80,26 @@ h3{
     background-color: #e0e0e0;
 }
 
+.actualPage:link{
+    background-color: #fff346;
+}
+
+.contenedorIntegrantes{
+    display: flex;
+    justify-content: space-around;
+}
+
+.contenedorIntegrantes div{
+    background-color: lightskyblue;
+    width: 600px;
+    height: 550px;
+    margin: 10px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 10px;
+    border: 10px;
+    border-color: black;
+}
 
 #descripcion{
     text-align: center;
